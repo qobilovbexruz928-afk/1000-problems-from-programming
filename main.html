@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+      <script>
+    let L = 345;
+    let metr = Math.floor(L / 100);
+    console.log("Integer1:", L + " sm =", metr + " metr"); 
+
+    
+    let M = 3580;
+    let tonna = Math.floor(M / 1000);
+    console.log("Integer2:", M + " kg =", tonna + " tonna"); 
+
+    
+    let bayt = 4097;
+    let kb = Math.floor(bayt / 1024);
+    console.log("Integer3:", bayt + " bayt =", kb + " KB"); 
+
+    
+    let A = 25;
+    let B = 4;
+    let count = Math.floor(A / B);
+    console.log("Integer4: A =", A, ", B =", B, "→", count + " ta bo‘lak joylashadi"); 
+
+    
+    let qoldiq = A % B;
+    console.log("Integer5: A =", A, ", B =", B, "→ Joylanmagan qism =", qoldiq); 
+
+    
+    let son = 47;
+    let onlik = Math.floor(son / 10);
+    let birlik = son % 10;
+    console.log("Integer6:", son + " → O‘nlik =", onlik + ", Birlik =", birlik); 
+
+ 
+    let yigindi = onlik + birlik;
+    let kopaytma = onlik * birlik;
+    console.log("Integer7: Yig‘indi =", yigindi + ", Ko‘paytma =", kopaytma); 
+
+    let almashtirilgan = birlik * 10 + onlik;
+    console.log("Integer8:", son + " → Raqamlar almashgan son =", almashtirilgan); 
+  </script>
+
+</body>
+</html>
